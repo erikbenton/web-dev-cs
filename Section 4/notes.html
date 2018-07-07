@@ -15,20 +15,24 @@
     <p>Pure Html unit with 2 major topics</p>
     <ul>
         <li>Tables
-            <li>Understand/Write valid HTML tables</li>
-            <li>Table Exercise</li>
+            <ul>
+                <li>Understand/Write valid HTML tables</li>
+                <li>Table Exercise</li>
+            </ul>
         </li>
         <li>Forms
-            <li>Write valid forms using tags for:
-                <ul>
-                    <li>form</li>
-                    <li>input</li>
-                    <li>select</li>
-                    <li>label</li>
-                </ul>
-            </li>
-            <li>Complex form exercise</li>
+            <ul>
+                <li>Write valid forms using tags for:
+                    <ul>
+                        <li>form</li>
+                        <li>input</li>
+                        <li>select</li>
+                        <li>label</li>
+                    </ul>
+                </li>
+            </ul>
         </li>
+        <li>Complex form exercise</li>
     </ul>
 
     <!-- Tables -->
@@ -65,6 +69,36 @@
             </tr>
         </tbody>
     </table>
+
+    <!-- Forms -->
+    <h2>Forms</h2>
+    <ul>
+        <li>form tag
+            <ul>
+                <li>action - the URL to send form data to</li>
+                <li>method - the type of HTTP request</li>
+            </ul>
+        </li>
+        <li>input tag
+            <ul>
+                <li>text</li>
+                <li>date</li>
+                <li>color</li>
+                <li>file</li>
+                <li>checkbox</li>
+            </ul>
+        </li>
+        <li>label tag</li>
+        <li>simple validations</li>
+    </ul>
+
+    <!-- Form example -->
+    <h1>Sign In</h1>
+    <form action="/sign-in-url" method="POST">
+        <input type="text">
+        <input type="password">
+        <button>Login</button>
+    </form>
     
 </body>
 </html>
