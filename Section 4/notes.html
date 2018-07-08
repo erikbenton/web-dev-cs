@@ -83,6 +83,9 @@
             <ul>
                 <li>name - attribute for giving form input a "variable" name</li>
                 <li>text</li>
+                <li>textarea</li>
+                <li>select</li>
+                <li>radio</li>
                 <li>date</li>
                 <li>color</li>
                 <li>file</li>
@@ -95,17 +98,21 @@
                 <li>Good way to add caption explaining input usage</li>
             </ul>
         </li>
-        <li>simple validations</li>
+        <li>simple validations
+            <ul>
+                <li>"required" attribute</li>
+            </ul>
+        </li>
     </ul>
 
     <!-- Form example -->
     <h1>Sign In</h1>
     <form action="/sign-in-url" method="POST">
         <label for="username">
-            Username: <input id="username" name="username" type="text" placeholder="username">
+            Username: <input id="username" name="username" type="text" placeholder="username" required>
         </label>
         <label for="password">
-            Password: <input id="password" name="password" type="password" placeholder="password">
+            Password: <input id="password" name="password" type="password" placeholder="password" required>
         </label>
         <input type="submit">
     </form>
