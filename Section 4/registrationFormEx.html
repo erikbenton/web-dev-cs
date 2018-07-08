@@ -15,10 +15,10 @@
         <div>
             <!-- Names -->
             <label for="firstName">
-                First Name: <input id="firstName" type="text" placeholder="John" required>
+                First Name: <input name="firstName" id="firstName" type="text" placeholder="John" required>
             </label>
             <label for="lastName">
-                Last Name: <input id="lastName" type="text" placeholder="Smith" required>
+                Last Name: <input name="lastName" id="lastName" type="text" placeholder="Smith" required>
             </label>
         </div>
 
@@ -38,10 +38,10 @@
         <div>
             <!-- Email/Password -->
             <label for="email">
-                Email: <input id="email" type="email" placeholder="your email" required>
+                Email: <input name="email" id="email" type="email" placeholder="your email" required>
             </label>
             <label for="password">
-                Password: <input id="password" type="password" minlength="5" maxlength="10" placeholder="your password" required>
+                Password: <input name="password" id="password" type="password" minlength="5" maxlength="10" required>
             </label>
         </div>
 
@@ -50,6 +50,7 @@
             <label for="birthday">
                 Birthday: 
                 <select name="month">
+                    <option>Month</option>
                     <option value="1">01</option>
                     <option value="2">02</option>
                     <option value="3">03</option>
@@ -64,6 +65,7 @@
                     <option value="12">12</option>
                 </select>
                 <select name="day">
+                        <option>Day</option>
                         <option value="1">01</option>
                         <option value="2">02</option>
                         <option value="3">03</option>
@@ -78,6 +80,7 @@
                         <option value="12">12</option>
                 </select>
                 <select name="year">
+                        <option>Year</option>
                         <option value="1990">1990</option>
                         <option value="1991">1991</option>
                         <option value="1992">1992</option>
