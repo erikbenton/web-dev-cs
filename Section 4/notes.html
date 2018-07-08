@@ -82,6 +82,7 @@
         <li>input tag
             <ul>
                 <li>name - attribute for giving form input a "variable" name</li>
+                <li>value - attribute for giving value to selection (radio/checkbox/etc.)</li>
                 <li>text</li>
                 <li>textarea</li>
                 <li>select</li>
@@ -121,7 +122,20 @@
     <input type="text" placeholder="text input">
     <input type="color">
     <input type="radio">
+    <input type="checkbox">
     <input type="password" placeholder="password input">
+
+    <p>Do you prefer cats or dogs?</p>
+    <form>
+        <label for="cat">
+            Cats: <input type="radio" name="petChoice" id="cat" value="cats">
+        </label>
+        <label for="dog">
+            Dogs: <input type="radio" name="petChoice" id="dog" value="dogs">
+        </label>
+        <button>Go!</button>
+    </form>
+    
     
 </body>
 </html>
