@@ -1,3 +1,5 @@
+/* Type selectors (1 specificity) */
+
 ul {
     color: blue;
 }
@@ -8,4 +10,24 @@ body {
 
 p {
     color: green;
+}
+
+/* Class selector (10 specificity) */
+
+.highlight {
+    color: yellow;
+}
+
+input[type="text"] {
+
+}
+
+a:hover {
+    
+}
+
+/* ID selector (100 specificity) */
+
+#special {
+    color: pink;
 }
